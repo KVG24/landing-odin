@@ -198,6 +198,7 @@ button {
 
 .blue-bar-text > h1 {
     font-size: 24px;
+    margin-bottom: 5px;
 }
 
 .blue-bar-text > p {
@@ -212,4 +213,19 @@ button {
     color: #E5E7EB;
     font-weight: 900;
     width: 150px;
+}
+
+/* FOOTER */
+
+.footer {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+.footer > p {
+    font-size: 14px;
+    color: white;
 }
