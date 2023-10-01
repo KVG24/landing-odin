@@ -7,6 +7,7 @@ body {
     font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 img {
@@ -26,6 +27,8 @@ a {
 .container {
     width: 100%;
 }
+
+/* HEADER */
 
 .header {
     background-color: #1F2937;
@@ -102,3 +105,72 @@ button {
     overflow: hidden;
     
 }
+
+/* CARDS */
+
+.cards {
+    height: 500px;
+}
+
+.cards-header {
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    padding: 40px;
+}
+
+.cards-container {
+    width: 1000px;
+    height: 400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 200px;
+    height: 200px;
+}
+
+.card-img {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #3882F6;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.card-desc {
+    font-size: 18px;
+    text-align: center;
+    color: #1F2937;
+    margin-top: 10px;
+}
+
+/* QUOTE */
+
+.quote {
+    height: 500px;
+    background-color: #E5E7EB;
+}
+
+.quote-text {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 70px 0 30px 0;
+}
+
+.quote-name {
+    width: 1000px;
+    color: black;
+    text-align: end;
+    font-weight: 900;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+/* ACTION */
