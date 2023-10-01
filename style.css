@@ -161,7 +161,7 @@ button {
     font-style: italic;
     width: 1000px;
     margin: 0 auto;
-    padding: 70px 0 30px 0;
+    padding: 150px 0 30px 0;
 }
 
 .quote-name {
@@ -174,3 +174,42 @@ button {
 }
 
 /* ACTION */
+
+.action {
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-bar {
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 200px;
+}
+
+.blue-bar-text {
+    color: white;
+}
+
+.blue-bar-text > h1 {
+    font-size: 24px;
+}
+
+.blue-bar-text > p {
+    font-size: 16px;
+}
+
+.blue-button {
+    background-color: #3882F6;
+    padding: 8px 30px;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: #E5E7EB;
+    font-weight: 900;
+    width: 150px;
+}
