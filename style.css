@@ -59,6 +59,15 @@ a {
     gap: 50px;
 }
 
+.links li {
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.links li:hover {
+    background-color: #3882F6;
+}
+
 .links {
     width: 600px;
 }
@@ -81,7 +90,6 @@ a {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
-    line-height: 60px;
 }
 
 .hero-desc {
@@ -89,7 +97,7 @@ a {
     color: #E5E7EB;
 }
 
-button {
+.hero-btn {
     background-color: #3882F6;
     padding: 8px 30px;
     border: 2px solid #3882F6;
@@ -97,6 +105,12 @@ button {
     color: #E5E7EB;
     font-weight: 900;
     width: 150px;
+}
+
+.hero-btn:hover {
+    background-color: #9dc0f7;
+    color: black;
+    cursor: pointer;
 }
 
 .image {
@@ -213,6 +227,12 @@ button {
     color: #E5E7EB;
     font-weight: 900;
     width: 150px;
+}
+
+.blue-button:hover {
+    background-color: #9dc0f7;
+    color: black;
+    cursor: pointer;
 }
 
 /* FOOTER */
